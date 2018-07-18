@@ -1,0 +1,22 @@
+PODS:
+  - LocalPod (0.0.1):
+    - LocalPod/Core (= 0.0.1)
+  - LocalPod/Core (0.0.1)
+  - LocalPod/TestMocks (0.0.1)
+  - LocalPod/Tests (0.0.1):
+    - LocalPod/TestMocks
+
+DEPENDENCIES:
+  - LocalPod (from `./LocalPod`)
+  - LocalPod/Tests (from `./LocalPod`)
+
+EXTERNAL SOURCES:
+  LocalPod:
+    :path: "./LocalPod"
+
+SPEC CHECKSUMS:
+  LocalPod: fa3ff364e88fe41c83787df2c04f22ef78286074
+
+PODFILE CHECKSUM: cef29a4800a0fe780653400e62ba8f6ae8d4769e
+
+COCOAPODS: 1.5.3
